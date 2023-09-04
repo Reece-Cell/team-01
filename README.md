@@ -38,10 +38,10 @@
     [Jesus] will introduce visual tweaks, art assets (outside of the vegetables), and a basic seasonal-tracker that we can fully implement as we go progress.
 
 9) When will things be completed/what are your milestones?
-    Milestone 1) Framework for drag-and-drop controls that combine vegetables. Vegetables in this case will be unfinished and act simply as stand ins for proof of concept.
-    Milestone 2) Introduce the traits fruits and vegetables have. Nutritional value, visuals, yields should all be introduced for each plant. Create a basic formula system to determine how fruits and vegetables inherit traits from one another to produce a crossbreed, then produce said crossbreed.
-    Milestone 3) Expand on prior systems, add more vegetables, and refine the crossbreeding mechanic while tracking the value of plants grown.
-    Milestone 4) Introduce seasonal modifiers, saved crossbreeds, total value grown tracker, finalize product.
+    - Milestone 1) Framework for drag-and-drop controls that combine vegetables. Vegetables in this case will be unfinished and act simply as stand ins for proof of concept.
+    - Milestone 2) Introduce the traits fruits and vegetables have. Nutritional value, visuals, yields should all be introduced for each plant. Create a basic formula system to determine how fruits and vegetables inherit traits from one another to produce a crossbreed, then produce said crossbreed.
+    - Milestone 3) Expand on prior systems, add more vegetables, and refine the crossbreeding mechanic while tracking the value of plants grown.
+    - Milestone 4) Introduce seasonal modifiers, saved crossbreeds, total value grown tracker, finalize product.
 
 10) What is your future ideas list?
     - Adding a locust swarm
