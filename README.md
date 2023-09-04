@@ -1,3 +1,5 @@
+Team: Jesus Morfin, Joshua Lawson, Marcos Arroyo, Reece Whitelaw
+
 1) What is the problem being solved /question asked?
     - How to crossbreed crops in a way that maximizes their utility.
 
