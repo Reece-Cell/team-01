@@ -28,4 +28,3 @@ public class DragObject : MonoBehaviour
         }
     }
 }
-
