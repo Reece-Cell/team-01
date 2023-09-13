@@ -43,16 +43,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 6738968615282281283}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44312701a8b8d3c4e9dc564cb8c6b528, type: 3}
+  m_Script: {fileID: 11500000, guid: c51b1c29f3921604d8b483be1b11b6b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stemImage: {fileID: 21300000, guid: 74db92bafe63123479c7b33b55e62f5c, type: 3}
+  stemImage: {fileID: 21300000, guid: f5eabc594f184aa41aefe910d5331256, type: 3}
   stemColor: {r: 0, g: 0, b: 0, a: 0}
-  coreImages:
-  - {fileID: 21300000, guid: 9f0d4dd80aff3d048a63137c95b50263, type: 3}
-  cores:
-  - {fileID: 7032356844717738779, guid: 2c4d02f82a588be48877bfc034b785bf, type: 3}
-  yOffset: 0.01
+  coreImages: []
+  cores: []
+  yOffset: -0.2
 --- !u!212 &6244724141603789824
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -94,7 +92,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 74db92bafe63123479c7b33b55e62f5c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f5eabc594f184aa41aefe910d5331256, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
