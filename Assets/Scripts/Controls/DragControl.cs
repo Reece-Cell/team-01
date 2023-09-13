@@ -9,6 +9,7 @@ public class DragControl : MonoBehaviour
     private Vector3 offset;                  // Offset between mouse position and the object's position
     private Transform objectBeingDragged;    // Reference to the object currently being dragged
 
+   // private bool slot = false;
     void Update()
     {
         // If left mouse button is pressed down
@@ -20,6 +21,11 @@ public class DragControl : MonoBehaviour
             if (Physics.Raycast(ray, out hit) && hit.transform.CompareTag("Drag"))
             {
                 isDragging = true;
+                // if (slot)
+                // {
+                //     previousLockTarget.GetComponent<SlotScript>().Remove_Item();
+                //     slot = false;
+                // }
                 objectBeingDragged = hit.transform;
                 offset = objectBeingDragged.position - hit.point;
             }
@@ -34,12 +40,15 @@ public class DragControl : MonoBehaviour
             if (objectBeingDragged && potentialLockTarget)
             {
                 objectBeingDragged.position = potentialLockTarget.position;
+                // slot = true;
+                // potentialLockTarget.GetComponent<SlotScript>().Insert_Item(objectBeingDragged);
                 previousLockTarget = potentialLockTarget;
             }
             // If not locked to a new position, return to previous "Lock"
             else if (objectBeingDragged && previousLockTarget)
             {
                 objectBeingDragged.position = previousLockTarget.position;
+                // slot = true;
             }
 
             objectBeingDragged = null;
