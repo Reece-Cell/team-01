@@ -411,7 +411,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1245731997}
+      - m_Target: {fileID: 1245731999}
         m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: PlayButton
         m_Mode: 1
@@ -520,8 +520,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Start
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b20aff145380a07449011fb6a80dcf74, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: b20aff145380a07449011fb6a80dcf74, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -699,9 +699,9 @@ GameObject:
   - component: {fileID: 831455455}
   - component: {fileID: 831455454}
   - component: {fileID: 831455453}
-  - component: {fileID: 831455452}
   - component: {fileID: 831455451}
   - component: {fileID: 831455450}
+  - component: {fileID: 831455457}
   m_Layer: 5
   m_Name: MenuCanvas
   m_TagString: Untagged
@@ -744,25 +744,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 831455449}
   m_CullTransparentMesh: 1
---- !u!114 &831455452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 831455449}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f27d55eeb31033d43b8c8ec0d93cc301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fadeDuration: 1
-  pauseDuration: 8
-  backgrounds:
-  - {fileID: 2800000, guid: f8acb3358eb5b584a87dfa61bafe1ba8, type: 3}
-  - {fileID: 2800000, guid: f1514631ae20c2443bc29886dc320e83, type: 3}
-  - {fileID: 2800000, guid: a13160fb6af71334c905347ae0a15204, type: 3}
-  - {fileID: 2800000, guid: 98f68db69899af54787e256d4ce9443e, type: 3}
 --- !u!114 &831455453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -847,6 +828,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &831455457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831455449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23912fe3c65c05f4ca18678b3f6f4de0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeDuration: 1
+  pauseDuration: 8
+  backgrounds:
+  - {fileID: 2800000, guid: 42228eebac53cc44d8b874874f4571ab, type: 3}
+  - {fileID: 2800000, guid: 0a15c83a6fa849343967f5b69e2b8a4e, type: 3}
+  - {fileID: 2800000, guid: c21dbd25358eed646885e57bf26c9977, type: 3}
+  - {fileID: 2800000, guid: 7a6150633ac689d4684c71edb0e48851, type: 3}
 --- !u!1 &1009504887
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,7 +972,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 91790d8b2681bad45a1863cb66ea2e3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f3d0f00a3d1dc95439e572664fe310c1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -999,7 +999,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1245731998}
-  - component: {fileID: 1245731997}
+  - component: {fileID: 1245731999}
   m_Layer: 0
   m_Name: NextScene
   m_TagString: Untagged
@@ -1007,19 +1007,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1245731997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1245731996}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 264dee97077b9504aa6fcf72474408f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playButtonLeadsTo: SampleScene
 --- !u!4 &1245731998
 Transform:
   m_ObjectHideFlags: 0
@@ -1035,6 +1022,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1245731999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245731996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 960ca3f77fa373d4dba6fbbab78597e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playButtonLeadsTo: SampleScene
 --- !u!1 &1818293750
 GameObject:
   m_ObjectHideFlags: 0
@@ -1044,7 +1044,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1818293752}
-  - component: {fileID: 1818293751}
+  - component: {fileID: 1818293753}
   m_Layer: 0
   m_Name: TransitionScene
   m_TagString: Untagged
@@ -1052,25 +1052,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1818293751
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1818293750}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10e317444e48ef34696936208eacd399, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  img: {fileID: 1201194740}
-  curve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!4 &1818293752
 Transform:
   m_ObjectHideFlags: 0
@@ -1087,6 +1068,25 @@ Transform:
   - {fileID: 327868030}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1818293753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818293750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cad879c7a4e7a6c488acb9578eec652c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  img: {fileID: 1201194740}
+  curve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1898762961
 GameObject:
   m_ObjectHideFlags: 0
@@ -1146,8 +1146,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: CropCrossing
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b20aff145380a07449011fb6a80dcf74, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: b20aff145380a07449011fb6a80dcf74, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
